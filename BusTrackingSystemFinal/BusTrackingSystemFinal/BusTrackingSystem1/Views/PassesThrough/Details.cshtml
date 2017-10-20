@@ -1,0 +1,50 @@
+﻿@model BusTrackingSystem1.Models.passes_through
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2 style="color: #2e5cb8">Details</h2>
+
+<div>
+
+    <hr />
+    <dl class="dl-horizontal" style="color:white">
+        <dt>
+            @Html.DisplayNameFor(model => model.order_no)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.order_no)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.time_to_reach)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.time_to_reach)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.location.location_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.location.location_name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.route.source)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.route.source)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.passes_through_id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

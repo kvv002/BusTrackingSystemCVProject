@@ -1,0 +1,26 @@
+﻿@model BusTrackingSystem1.Models.bus_type
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2 style="color: #2e5cb8">Details</h2>
+
+<div>
+  
+	<hr />
+    <dl class="dl-horizontal" style="color:white">
+        <dt>
+            @Html.DisplayNameFor(model => model.bus_type_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.bus_type_name)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.bus_type_id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

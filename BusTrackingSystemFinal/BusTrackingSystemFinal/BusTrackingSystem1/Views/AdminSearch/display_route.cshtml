@@ -1,0 +1,231 @@
+﻿@model IEnumerable<BusTrackingSystem1.viewModel.routeViewModel>
+
+@{
+    ViewBag.Title = "Route";
+}
+
+<h2 style="color: #2e5cb8">Display Route</h2>
+
+<p style="color:white">
+    @Html.Label("BUS ID"):
+    @Html.ViewBag.bus_id
+
+</p>
+<table class="table" style="color:white">
+    <tr>
+
+        @{ List<double> lat = new List<double>();
+         List<double> longi = new List<double>(); }
+
+        <th>
+            @Html.DisplayNameFor(model => model.location_name)
+        </th>
+
+        <th>
+            @Html.DisplayNameFor(model => model.location_sequence)
+        </th>
+
+        <th>
+            @Html.DisplayNameFor(model => model.time_to_reach)
+        </th>
+        <th></th>
+    </tr>
+
+
+    @foreach (var item in Model)
+    {
+
+        //lat.Add((double)@item.latitude);
+        //longi.Add((double)@item.longitude);
+        <tr>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.location_name)
+            </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.location_sequence)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.time_to_reach)
+            </td>
+
+        </tr>
+        // @lat[0];
+
+
+    }
+
+
+</table>
+<button onclick="getRoute()">Display Road Route</button>
+<button onclick="getLocation()">My Location</button>
+<button onclick="getPolyline()">Display Polyline Route</button>
+<div id="mapholder" style="width: 500px; height: 250px;"></div>
+
+<script>
+
+    var x = document.getElementById("mapholder");
+    //display Road Route
+    function getRoute() {
+        var length = '@ViewBag.latitude.Count';
+        var locations = [];
+        var l1, l2;
+        var it;
+        var BusPlanCoordinates = new Array();
+        var directionsService = new google.maps.DirectionsService;
+        var geocoder = new google.maps.Geocoder;
+        var infowindow = new google.maps.InfoWindow;
+        var directionsDisplay = new google.maps.DirectionsRenderer;
+
+        var lats=@Html.Raw(Json.Encode(ViewBag.latitude));
+        var longs=@Html.Raw(Json.Encode(ViewBag.longitude));
+        var location_name=@Html.Raw(Json.Encode(ViewBag.location_name));
+
+
+        var mapProp = {
+
+            center: new google.maps.LatLng(lats[0], longs[0]),
+            zoom: 10,
+        };
+        var map = new google.maps.Map(x, mapProp);
+        directionsDisplay.setMap(map);
+
+        for (var i = 0; i < length ; i++) {
+
+            locations = new google.maps.LatLng(lats[i], longs[i]);
+            BusPlanCoordinates.push(locations);
+
+            var marker = new google.maps.Marker({ position: locations, map: map});
+            marker.setMap(map);
+
+        }
+        var waypts = [];
+        for (var i = 0; i < length; i++) {
+
+            waypts.push({
+                location: location_name[i],
+                stopover: true
+            });
+
+        }
+
+        calculateAndDisplayRoute(directionsService, directionsDisplay,location_name[0],location_name[length-1],waypts)
+
+    }
+
+
+
+
+    function calculateAndDisplayRoute(directionsService, directionsDisplay,loc1,loc2,waypts) {
+
+        directionsService.route({
+            origin: loc1,
+            destination: loc2,
+            waypoints: waypts, //an array of waypoints
+            optimizeWaypoints: true, //set to true if you want google to determine the shortest route or false to use the order specified.
+            travelMode: 'DRIVING'
+        }, function(response, status) {
+            if (status === 'OK') {
+                directionsDisplay.setDirections(response);
+            } else {
+                window.alert('Directions request failed due to ' + status);
+            }
+        });
+    }
+
+
+
+
+
+
+    //get geolocation
+
+    function getLocation() {
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(showPosition, showError);
+        } else {
+            x.innerHTML = "Geolocation is not supported by this browser.";
+        }
+    }
+
+    function showPosition(position) {
+        lat = position.coords.latitude;
+        lon = position.coords.longitude;
+        latlon = new google.maps.LatLng(lat, lon)
+        mapholder = document.getElementById('mapholder')
+        mapholder.style.height = '250px';
+        mapholder.style.width = '500px';
+
+        var myOptions = {
+            center: latlon, zoom: 14,
+            mapTypeId: google.maps.MapTypeId.ROADMAP,
+            mapTypeControl: false,
+            navigationControlOptions: { style: google.maps.NavigationControlStyle.SMALL }
+        }
+
+        var map = new google.maps.Map(document.getElementById("mapholder"), myOptions);
+        var marker = new google.maps.Marker({ position: latlon, map: map, title: "You are here!" ,animation: google.maps.Animation.BOUNCE });
+    }
+
+    function showError(error) {
+        switch (error.code) {
+            case error.PERMISSION_DENIED:
+                x.innerHTML = "User denied the request for Geolocation."
+                break;
+            case error.POSITION_UNAVAILABLE:
+                x.innerHTML = "Location information is unavailable."
+                break;
+            case error.TIMEOUT:
+                x.innerHTML = "The request to get user location timed out."
+                break;
+            case error.UNKNOWN_ERROR:
+                x.innerHTML = "An unknown error occurred."
+                break;
+        }
+    }
+    //get polyline ROute
+    function getPolyline() {
+        var length = '@ViewBag.latitude.Count';
+        var locations = [];
+        var l1, l2
+        var BusPlanCoordinates = new Array();
+
+        var lats=@Html.Raw(Json.Encode(ViewBag.latitude));
+
+
+        var longs=@Html.Raw(Json.Encode(ViewBag.longitude));
+
+        var mapProp = {
+            center: new google.maps.LatLng(lats[0], longs[0]),
+            zoom: 10,
+        };
+        var map = new google.maps.Map(x, mapProp);
+
+        for (var i = 0; i < length ; i++) {
+
+            locations = new google.maps.LatLng(lats[i], longs[i]);
+            BusPlanCoordinates.push(locations);
+            var marker = new google.maps.Marker({ position: locations, map: map});
+            marker.setMap(map);
+        }
+
+
+
+
+        var BusPath = new google.maps.Polyline({
+            path: BusPlanCoordinates,
+            strokeColor: "#0000FF",
+            strokeOpacity: 0.8,
+            strokeWeight: 2
+        });
+        BusPath.setMap(map);
+
+    }
+
+</script>
+
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgRcjOMUoTBMHeJE3bvbIzc6isBUNvXx4"></script>
+
+

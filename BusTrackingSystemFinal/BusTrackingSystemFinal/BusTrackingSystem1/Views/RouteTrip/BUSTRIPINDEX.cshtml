@@ -1,0 +1,66 @@
+﻿@model IEnumerable<BusTrackingSystem1.Models.bus_trip>
+
+@{
+    ViewBag.Title = "BUSTRIPINDEX";
+}
+
+
+
+<p style="padding-top: 60px ; font-size:20px;">
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table" style="color:white">
+    <tr>
+        <th>
+            
+            @Html.Label("Bus Trip Date")
+        </th>
+        <th>
+            @Html.Label("Start Time")
+            
+        </th>
+        <th>
+            @Html.Label("End Time")
+            
+        </th>
+        <th>
+            @Html.Label("Bus ID")
+          
+        </th>
+        <th>
+            @Html.Label("Driver Name")
+           
+        </th>
+        <th>
+            @Html.Label("Route Trip ID")
+           
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.bus_trip_date)
+
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.start_time)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.end_time)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.bus.bus_id)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.driver.driver_name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.route_trip.route_trip_id)
+        </td>
+       
+    </tr>
+}
+
+</table>

@@ -1,0 +1,41 @@
+﻿@model BusTrackingSystem1.Models.drive
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2 style="color: #2e5cb8">Delete</h2>
+
+<h3 style="color:white">Are you sure you want to delete this?</h3>
+<div>
+    
+    <hr />
+    <dl class="dl-horizontal" style="color:white">
+        <dt>
+            @Html.DisplayNameFor(model => model.bus.bus_id)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.bus.bus_id)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.driver.driver_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.driver.driver_name)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

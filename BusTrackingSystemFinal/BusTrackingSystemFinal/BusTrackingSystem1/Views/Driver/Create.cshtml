@@ -1,0 +1,69 @@
+﻿@model BusTrackingSystem1.Models.driver
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2 style="color: #2e5cb8">Add New</h2>
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal" style="color:white">
+        
+        <hr />
+        @Html.ValidationSummary(true)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.driver_name, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.driver_name)
+                @Html.ValidationMessageFor(model => model.driver_name)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.phone_number, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.phone_number)
+                @Html.ValidationMessageFor(model => model.phone_number)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.driver_address, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.driver_address)
+                @Html.ValidationMessageFor(model => model.driver_address)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.gender, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+
+                @Html.DropDownList("gender", String.Empty)
+                @Html.ValidationMessageFor(model => model.gender)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.date_of_birth, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.date_of_birth)
+                @Html.ValidationMessageFor(model => model.date_of_birth)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

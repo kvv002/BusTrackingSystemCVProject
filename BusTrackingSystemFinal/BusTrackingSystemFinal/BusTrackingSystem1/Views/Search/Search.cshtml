@@ -1,0 +1,130 @@
+﻿@model IEnumerable<BusTrackingSystem1.viewModel.searchModel>
+
+@{
+    ViewBag.Title = "Search";
+}
+
+
+
+
+
+
+
+<p>
+    @using (Html.BeginForm("Search", "Search", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+        
+        
+
+    <div class="form-horizontal" style="color: white; float:left;  ">
+       
+
+
+          
+            @Html.ValidationSummary(true)
+
+        <div class="form-group" style="padding-left: 60px; padding-top: 60px; font-size: 18px ;">
+            @Html.Label("Source", new { @style = "padding-left:45px" })
+
+            @Html.DropDownList("source", (IEnumerable<SelectListItem>)ViewBag.source, String.Empty, new { @class = "control-label" , style ="padding-left:50px" })
+
+        </div>
+            <div class="form-group" style="padding-left:65px; padding-top:40px;font-size:18px">
+                @Html.Label("Destination")
+
+
+                @Html.DropDownList("destination", (IEnumerable<SelectListItem>)ViewBag.destination, String.Empty, new { @class = "control-label", style = "padding-left:8px" })
+
+
+
+            </div>
+
+        
+        <div class="form-group" style="padding-top:40px; padding-left:100px">
+
+            <div class=" col-md-offset-2 col-md-10">
+                <input type="image" src="../../Content/searchlogin.png" alt="submit" width="168" height="58" id="im" />
+            </div>
+        </div>
+        <div style="padding-top:40px">
+
+            <a href="@Url.Action("Create","Complaint")">
+                <img src="@Url.Content("~/Content/com.png")" />
+            </a>
+        </div>
+        <h1 style="color: royalblue">@ViewBag.suggestion</h1> 
+        </div>
+        
+         <div style="float:right">
+            <video width="450" height="400" autoplay style="float:right; padding-right:40px;">
+                <source src="../../Content/video.mp4" type="video/mp4" />
+
+            </video>
+           
+             
+        </div>
+        
+}
+   
+</p>
+
+@if (Model.Count()!=0) { 
+   
+   
+<table class="table" style="color:white">
+   
+    <tr>
+        <th style="padding-left:20px">
+            @Html.Label("SOURCE")
+        </th>
+        <th>
+            @Html.Label("DESTINATION")
+        </th>
+        <th>
+            @Html.Label("BUS ID")
+        </th>
+        <th>
+            @Html.Label("NUMBER OF TRIPS")
+        </th>
+        <th>
+            @Html.Label("DEPARTURE TIME")
+        </th>
+        <th>
+            @Html.Label("ARRIVAL TIME")
+        </th>
+       
+        <th></th>
+    </tr>
+   
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.source)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.destination)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.bus_id)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.number_of_trips)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.departure_time)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.arrival_time)
+        </td>
+
+        <td>
+            @Html.ActionLink("DISPLAY ROUTE", "display_route", new { bus_id=item.bus_id,trip_id=item.route_trip_id}) 
+          
+        </td>
+    </tr>
+}
+
+</table>
+}

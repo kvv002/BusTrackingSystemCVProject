@@ -1,0 +1,40 @@
+﻿@model IEnumerable<BusTrackingSystem1.Models.complaint>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/SearchPageLayout.cshtml";
+}
+
+
+
+<p style="padding-top: 60px; font-size: 20px;padding-top:40px;">
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table" style="color:white">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.complaint1)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.route_id)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.complaint1)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.route_id)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.complaint_id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.complaint_id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.complaint_id })
+        </td>
+    </tr>
+}
+
+</table>

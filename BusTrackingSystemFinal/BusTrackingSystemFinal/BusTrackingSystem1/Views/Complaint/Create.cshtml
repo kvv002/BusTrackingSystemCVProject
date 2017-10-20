@@ -1,0 +1,53 @@
+﻿@model BusTrackingSystem1.Models.complaint
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/SearchPageLayout.cshtml";
+}
+
+<h2 style="color: #2e5cb8">Create</h2>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+   <div class="form-horizontal" style="color:white">
+       
+        <hr />
+        @Html.ValidationSummary(true)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.complaint1,"Complaint", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.complaint1)
+                @Html.ValidationMessageFor(model => model.complaint1)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.route_id, "Route",new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownListFor(model => model.route_id,
+         new SelectList(@ViewBag.route_id, "id", " about_route"),
+                    new { @class = "comboBox" }
+                    )
+                @Html.ValidationMessageFor(model => model.route_id)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Submit" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

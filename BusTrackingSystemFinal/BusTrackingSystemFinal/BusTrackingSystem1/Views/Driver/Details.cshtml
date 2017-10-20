@@ -1,0 +1,58 @@
+﻿@model BusTrackingSystem1.Models.driver
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2 style="color: #2e5cb8">Details</h2>
+
+<div>
+    
+	<hr />
+    <dl class="dl-horizontal" style="color:white">
+        <dt>
+            @Html.DisplayNameFor(model => model.driver_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.driver_name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.phone_number)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.phone_number)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.driver_address)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.driver_address)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.gender)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.gender)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.date_of_birth)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.date_of_birth)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.driver_id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,605 @@
+c:\users\k\documents\visual studio 2013\Projects\BusTrackingSystem1\BusTrackingSystem1\bin\BusTrackingSystem1.dll.config
+c:\users\k\documents\visual studio 2013\Projects\BusTrackingSystem1\BusTrackingSystem1\bin\BusTrackingSystem1.dll
+c:\users\k\documents\visual studio 2013\Projects\BusTrackingSystem1\BusTrackingSystem1\bin\BusTrackingSystem1.pdb
+c:\users\k\documents\visual studio 2013\Projects\BusTrackingSystem1\BusTrackingSystem1\bin\Antlr3.Runtime.dll
+c:\users\k\documents\visual studio 2013\Projects\BusTrackingSystem1\BusTrackingSystem1\bin\EntityFramework.dll
+c:\users\k\documents\visual studio 2013\Projects\BusTrackingSystem1\BusTrackingSystem1\bin\EntityFramework.SqlServer.dll
+c:\users\k\documents\visual studio 2013\Projects\BusTrackingSystem1\BusTrackingSystem1\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\k\documents\visual studio 2013\Projects\BusTrackingSystem1\BusTrackingSystem1\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\k\documents\visual studio 2013\Projects\BusTrackingSystem1\BusTrackingSystem1\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\k\documents\visual studio 2013\Projects\BusTrackingSystem1\BusTrackingSystem1\bin\Microsoft.Owin.dll
+c:\users\k\documents\visual studio 2013\Projects\BusTrackingSystem1\BusTrackingSystem1\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\k\documents\visual studio 2013\Projects\BusTrackingSystem1\BusTrackingSystem1\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\k\documents\visual studio 2013\Projects\BusTrackingSystem1\BusTrackingSystem1\bin\Microsoft.Owin.Security.dll
+c:\users\k\documents\visual studio 2013\Projects\BusTrackingSystem1\BusTrackingSystem1\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\k\documents\visual studio 2013\Projects\BusTrackingSystem1\BusTrackingSystem1\bin\Microsoft.Owin.Security.Google.dll
+c:\users\k\documents\visual studio 2013\Projects\BusTrackingSystem1\BusTrackingSystem1\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\k\documents\visual studio 2013\Projects\BusTrackingSystem1\BusTrackingSystem1\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\k\documents\visual studio 2013\Projects\BusTrackingSystem1\BusTrackingSystem1\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\k\documents\visual studio 2013\Projects\BusTrackingSystem1\BusTrackingSystem1\bin\Microsoft.Web.Infrastructure.dll
+c:\users\k\documents\visual studio 2013\Projects\BusTrackingSystem1\BusTrackingSystem1\bin\Newtonsoft.Json.dll
+c:\users\k\documents\visual studio 2013\Projects\BusTrackingSystem1\BusTrackingSystem1\bin\Owin.dll
+c:\users\k\documents\visual studio 2013\Projects\BusTrackingSystem1\BusTrackingSystem1\bin\System.Web.Helpers.dll
+c:\users\k\documents\visual studio 2013\Projects\BusTrackingSystem1\BusTrackingSystem1\bin\System.Web.Mvc.dll
+c:\users\k\documents\visual studio 2013\Projects\BusTrackingSystem1\BusTrackingSystem1\bin\System.Web.Optimization.dll
+c:\users\k\documents\visual studio 2013\Projects\BusTrackingSystem1\BusTrackingSystem1\bin\System.Web.Razor.dll
+c:\users\k\documents\visual studio 2013\Projects\BusTrackingSystem1\BusTrackingSystem1\bin\System.Web.WebPages.Deployment.dll
+c:\users\k\documents\visual studio 2013\Projects\BusTrackingSystem1\BusTrackingSystem1\bin\System.Web.WebPages.dll
+c:\users\k\documents\visual studio 2013\Projects\BusTrackingSystem1\BusTrackingSystem1\bin\System.Web.WebPages.Razor.dll
+c:\users\k\documents\visual studio 2013\Projects\BusTrackingSystem1\BusTrackingSystem1\bin\WebGrease.dll
+c:\users\k\documents\visual studio 2013\Projects\BusTrackingSystem1\BusTrackingSystem1\bin\System.Web.Helpers.xml
+c:\users\k\documents\visual studio 2013\Projects\BusTrackingSystem1\BusTrackingSystem1\bin\System.Web.Mvc.xml
+c:\users\k\documents\visual studio 2013\Projects\BusTrackingSystem1\BusTrackingSystem1\bin\System.Web.Optimization.xml
+c:\users\k\documents\visual studio 2013\Projects\BusTrackingSystem1\BusTrackingSystem1\bin\System.Web.Razor.xml
+c:\users\k\documents\visual studio 2013\Projects\BusTrackingSystem1\BusTrackingSystem1\bin\System.Web.WebPages.xml
+c:\users\k\documents\visual studio 2013\Projects\BusTrackingSystem1\BusTrackingSystem1\bin\System.Web.WebPages.Deployment.xml
+c:\users\k\documents\visual studio 2013\Projects\BusTrackingSystem1\BusTrackingSystem1\bin\System.Web.WebPages.Razor.xml
+c:\users\k\documents\visual studio 2013\Projects\BusTrackingSystem1\BusTrackingSystem1\bin\Newtonsoft.Json.xml
+c:\users\k\documents\visual studio 2013\Projects\BusTrackingSystem1\BusTrackingSystem1\bin\Antlr3.Runtime.pdb
+c:\users\k\documents\visual studio 2013\Projects\BusTrackingSystem1\BusTrackingSystem1\bin\EntityFramework.xml
+c:\users\k\documents\visual studio 2013\Projects\BusTrackingSystem1\BusTrackingSystem1\bin\EntityFramework.SqlServer.xml
+c:\users\k\documents\visual studio 2013\Projects\BusTrackingSystem1\BusTrackingSystem1\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\k\documents\visual studio 2013\Projects\BusTrackingSystem1\BusTrackingSystem1\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\k\documents\visual studio 2013\Projects\BusTrackingSystem1\BusTrackingSystem1\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\k\documents\visual studio 2013\Projects\BusTrackingSystem1\BusTrackingSystem1\bin\Microsoft.Owin.xml
+c:\users\k\documents\visual studio 2013\Projects\BusTrackingSystem1\BusTrackingSystem1\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\k\documents\visual studio 2013\Projects\BusTrackingSystem1\BusTrackingSystem1\bin\Microsoft.Owin.Security.xml
+c:\users\k\documents\visual studio 2013\Projects\BusTrackingSystem1\BusTrackingSystem1\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\k\documents\visual studio 2013\Projects\BusTrackingSystem1\BusTrackingSystem1\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\k\documents\visual studio 2013\Projects\BusTrackingSystem1\BusTrackingSystem1\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\k\documents\visual studio 2013\Projects\BusTrackingSystem1\BusTrackingSystem1\bin\Microsoft.Owin.Security.Google.xml
+c:\users\k\documents\visual studio 2013\Projects\BusTrackingSystem1\BusTrackingSystem1\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\k\documents\visual studio 2013\Projects\BusTrackingSystem1\BusTrackingSystem1\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\k\documents\visual studio 2013\Projects\BusTrackingSystem1\BusTrackingSystem1\obj\Debug\BusTrackingSystem1.csprojResolveAssemblyReference.cache
+c:\users\k\documents\visual studio 2013\Projects\BusTrackingSystem1\BusTrackingSystem1\obj\Debug\BusTrackingSystem1.dll
+c:\users\k\documents\visual studio 2013\Projects\BusTrackingSystem1\BusTrackingSystem1\obj\Debug\BusTrackingSystem1.pdb
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\obj\Debug\BusTrackingSystem1.csprojResolveAssemblyReference.cache
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\obj\Debug\BusTrackingSystem1.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\BusTrackingSystem1.dll.config
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\BusTrackingSystem1.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\BusTrackingSystem1.pdb
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\Antlr3.Runtime.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\EntityFramework.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\EntityFramework.SqlServer.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Owin.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Owin.Security.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\Newtonsoft.Json.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\Owin.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\System.Web.Helpers.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\System.Web.Mvc.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\System.Web.Optimization.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\System.Web.Razor.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\System.Web.WebPages.Deployment.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\System.Web.WebPages.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\System.Web.WebPages.Razor.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\WebGrease.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\System.Web.Helpers.xml
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\System.Web.Mvc.xml
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\System.Web.Optimization.xml
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\System.Web.Razor.xml
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\System.Web.WebPages.xml
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\System.Web.WebPages.Deployment.xml
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\System.Web.WebPages.Razor.xml
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\Newtonsoft.Json.xml
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\Antlr3.Runtime.pdb
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\EntityFramework.xml
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\EntityFramework.SqlServer.xml
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Owin.xml
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Owin.Security.xml
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\obj\Debug\BusTrackingSystem1.pdb
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\BusTrackingSystem1.dll.config
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\BusTrackingSystem1.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\BusTrackingSystem1.pdb
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\Antlr3.Runtime.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\EntityFramework.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\EntityFramework.SqlServer.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Owin.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Owin.Security.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\Newtonsoft.Json.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\Owin.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\System.Web.Helpers.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\System.Web.Mvc.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\System.Web.Optimization.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\System.Web.Razor.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\System.Web.WebPages.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\System.Web.WebPages.Razor.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\WebGrease.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\System.Web.Helpers.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\System.Web.Mvc.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\System.Web.Optimization.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\System.Web.Razor.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\System.Web.WebPages.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\System.Web.WebPages.Razor.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\Newtonsoft.Json.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\Antlr3.Runtime.pdb
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\EntityFramework.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\EntityFramework.SqlServer.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Owin.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Owin.Security.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\obj\Debug\BusTrackingSystem1.csprojResolveAssemblyReference.cache
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\obj\Debug\BusTrackingSystem1.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem1\obj\Debug\BusTrackingSystem1.pdb
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\BusTrackingSystem1.dll.config
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\BusTrackingSystem1.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\BusTrackingSystem1.pdb
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\Antlr3.Runtime.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\EntityFramework.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\EntityFramework.SqlServer.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Owin.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Owin.Security.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\Newtonsoft.Json.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\Owin.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\System.Web.Helpers.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\System.Web.Mvc.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\System.Web.Optimization.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\System.Web.Razor.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\System.Web.WebPages.Deployment.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\System.Web.WebPages.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\System.Web.WebPages.Razor.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\WebGrease.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\System.Web.Helpers.xml
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\System.Web.Mvc.xml
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\System.Web.Optimization.xml
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\System.Web.Razor.xml
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\System.Web.WebPages.xml
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\System.Web.WebPages.Deployment.xml
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\System.Web.WebPages.Razor.xml
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\Newtonsoft.Json.xml
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\Antlr3.Runtime.pdb
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\EntityFramework.xml
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\EntityFramework.SqlServer.xml
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Owin.xml
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Owin.Security.xml
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\obj\Debug\BusTrackingSystem1.csprojResolveAssemblyReference.cache
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\obj\Debug\BusTrackingSystem1.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\obj\Debug\BusTrackingSystem1.pdb
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\BusTrackingSystem1.dll.config
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\BusTrackingSystem1.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\BusTrackingSystem1.pdb
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\Antlr3.Runtime.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\EntityFramework.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\EntityFramework.SqlServer.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Owin.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Owin.Security.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\Newtonsoft.Json.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\Owin.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\System.Web.Helpers.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\System.Web.Mvc.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\System.Web.Optimization.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\System.Web.Razor.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\System.Web.WebPages.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\System.Web.WebPages.Razor.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\WebGrease.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\System.Web.Helpers.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\System.Web.Mvc.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\System.Web.Optimization.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\System.Web.Razor.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\System.Web.WebPages.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\System.Web.WebPages.Razor.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\Newtonsoft.Json.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\Antlr3.Runtime.pdb
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\EntityFramework.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\EntityFramework.SqlServer.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Owin.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Owin.Security.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\obj\Debug\BusTrackingSystem1.csprojResolveAssemblyReference.cache
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\obj\Debug\BusTrackingSystem1.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\BusTrackingSystem2\BusTrackingSystem2\BusTrackingSystem1\obj\Debug\BusTrackingSystem1.pdb
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final4\BusTrackingSystem1\bin\BusTrackingSystem1.dll.config
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final4\BusTrackingSystem1\bin\BusTrackingSystem1.dll
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final4\BusTrackingSystem1\bin\BusTrackingSystem1.pdb
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final4\BusTrackingSystem1\bin\Antlr3.Runtime.dll
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final4\BusTrackingSystem1\bin\EntityFramework.dll
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final4\BusTrackingSystem1\bin\EntityFramework.SqlServer.dll
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final4\BusTrackingSystem1\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final4\BusTrackingSystem1\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final4\BusTrackingSystem1\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final4\BusTrackingSystem1\bin\Microsoft.Owin.dll
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final4\BusTrackingSystem1\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.dll
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final4\BusTrackingSystem1\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final4\BusTrackingSystem1\bin\Newtonsoft.Json.dll
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final4\BusTrackingSystem1\bin\Owin.dll
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final4\BusTrackingSystem1\bin\System.Web.Helpers.dll
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final4\BusTrackingSystem1\bin\System.Web.Mvc.dll
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final4\BusTrackingSystem1\bin\System.Web.Optimization.dll
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final4\BusTrackingSystem1\bin\System.Web.Razor.dll
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final4\BusTrackingSystem1\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final4\BusTrackingSystem1\bin\System.Web.WebPages.dll
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final4\BusTrackingSystem1\bin\System.Web.WebPages.Razor.dll
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final4\BusTrackingSystem1\bin\WebGrease.dll
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final4\BusTrackingSystem1\bin\System.Web.Helpers.xml
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final4\BusTrackingSystem1\bin\System.Web.Mvc.xml
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final4\BusTrackingSystem1\bin\System.Web.Optimization.xml
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final4\BusTrackingSystem1\bin\System.Web.Razor.xml
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final4\BusTrackingSystem1\bin\System.Web.WebPages.xml
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final4\BusTrackingSystem1\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final4\BusTrackingSystem1\bin\System.Web.WebPages.Razor.xml
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final4\BusTrackingSystem1\bin\Newtonsoft.Json.xml
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final4\BusTrackingSystem1\bin\Antlr3.Runtime.pdb
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final4\BusTrackingSystem1\bin\EntityFramework.xml
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final4\BusTrackingSystem1\bin\EntityFramework.SqlServer.xml
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final4\BusTrackingSystem1\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final4\BusTrackingSystem1\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final4\BusTrackingSystem1\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final4\BusTrackingSystem1\bin\Microsoft.Owin.xml
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final4\BusTrackingSystem1\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.xml
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final4\BusTrackingSystem1\obj\Debug\BusTrackingSystem1.csprojResolveAssemblyReference.cache
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final4\BusTrackingSystem1\obj\Debug\BusTrackingSystem1.dll
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final4\BusTrackingSystem1\obj\Debug\BusTrackingSystem1.pdb
+C:\Users\k\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\BusTrackingSystem1.dll.config
+C:\Users\k\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\BusTrackingSystem1.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\BusTrackingSystem1.pdb
+C:\Users\k\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\Antlr3.Runtime.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\EntityFramework.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\EntityFramework.SqlServer.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\Microsoft.Owin.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\Newtonsoft.Json.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\Owin.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\System.Web.Helpers.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\System.Web.Mvc.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\System.Web.Optimization.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\System.Web.Razor.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\System.Web.WebPages.Deployment.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\System.Web.WebPages.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\System.Web.WebPages.Razor.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\WebGrease.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\System.Web.Helpers.xml
+C:\Users\k\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\System.Web.Mvc.xml
+C:\Users\k\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\System.Web.Optimization.xml
+C:\Users\k\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\System.Web.Razor.xml
+C:\Users\k\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\System.Web.WebPages.xml
+C:\Users\k\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\System.Web.WebPages.Deployment.xml
+C:\Users\k\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\System.Web.WebPages.Razor.xml
+C:\Users\k\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\Newtonsoft.Json.xml
+C:\Users\k\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\Antlr3.Runtime.pdb
+C:\Users\k\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\EntityFramework.xml
+C:\Users\k\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\EntityFramework.SqlServer.xml
+C:\Users\k\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\k\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\k\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\k\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\Microsoft.Owin.xml
+C:\Users\k\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\k\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.xml
+C:\Users\k\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\k\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\k\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\k\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\k\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\k\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\k\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\obj\Debug\BusTrackingSystem1.csprojResolveAssemblyReference.cache
+C:\Users\k\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\obj\Debug\BusTrackingSystem1.dll
+C:\Users\k\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\obj\Debug\BusTrackingSystem1.pdb
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\BusTrackingSystem1.dll.config
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\BusTrackingSystem1.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\BusTrackingSystem1.pdb
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\Antlr3.Runtime.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\EntityFramework.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\EntityFramework.SqlServer.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\Microsoft.Owin.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\Newtonsoft.Json.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\Owin.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\System.Web.Helpers.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\System.Web.Mvc.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\System.Web.Optimization.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\System.Web.Razor.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\System.Web.WebPages.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\System.Web.WebPages.Razor.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\WebGrease.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\System.Web.Helpers.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\System.Web.Mvc.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\System.Web.Optimization.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\System.Web.Razor.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\System.Web.WebPages.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\System.Web.WebPages.Razor.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\Newtonsoft.Json.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\Antlr3.Runtime.pdb
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\EntityFramework.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\EntityFramework.SqlServer.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\Microsoft.Owin.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\obj\Debug\BusTrackingSystem1.csprojResolveAssemblyReference.cache
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\obj\Debug\BusTrackingSystem1.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\final4\BusTrackingSystem1\obj\Debug\BusTrackingSystem1.pdb
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final6\final4\final4\BusTrackingSystem1\bin\BusTrackingSystem1.dll.config
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final6\final4\final4\BusTrackingSystem1\bin\BusTrackingSystem1.dll
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final6\final4\final4\BusTrackingSystem1\bin\BusTrackingSystem1.pdb
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final6\final4\final4\BusTrackingSystem1\bin\Antlr3.Runtime.dll
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final6\final4\final4\BusTrackingSystem1\bin\EntityFramework.dll
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final6\final4\final4\BusTrackingSystem1\bin\EntityFramework.SqlServer.dll
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final6\final4\final4\BusTrackingSystem1\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final6\final4\final4\BusTrackingSystem1\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final6\final4\final4\BusTrackingSystem1\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final6\final4\final4\BusTrackingSystem1\bin\Microsoft.Owin.dll
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final6\final4\final4\BusTrackingSystem1\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final6\final4\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final6\final4\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.dll
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final6\final4\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final6\final4\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final6\final4\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final6\final4\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final6\final4\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final6\final4\final4\BusTrackingSystem1\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final6\final4\final4\BusTrackingSystem1\bin\Newtonsoft.Json.dll
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final6\final4\final4\BusTrackingSystem1\bin\Owin.dll
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final6\final4\final4\BusTrackingSystem1\bin\System.Web.Helpers.dll
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final6\final4\final4\BusTrackingSystem1\bin\System.Web.Mvc.dll
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final6\final4\final4\BusTrackingSystem1\bin\System.Web.Optimization.dll
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final6\final4\final4\BusTrackingSystem1\bin\System.Web.Razor.dll
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final6\final4\final4\BusTrackingSystem1\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final6\final4\final4\BusTrackingSystem1\bin\System.Web.WebPages.dll
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final6\final4\final4\BusTrackingSystem1\bin\System.Web.WebPages.Razor.dll
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final6\final4\final4\BusTrackingSystem1\bin\WebGrease.dll
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final6\final4\final4\BusTrackingSystem1\bin\System.Web.Helpers.xml
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final6\final4\final4\BusTrackingSystem1\bin\System.Web.Mvc.xml
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final6\final4\final4\BusTrackingSystem1\bin\System.Web.Optimization.xml
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final6\final4\final4\BusTrackingSystem1\bin\System.Web.Razor.xml
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final6\final4\final4\BusTrackingSystem1\bin\System.Web.WebPages.xml
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final6\final4\final4\BusTrackingSystem1\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final6\final4\final4\BusTrackingSystem1\bin\System.Web.WebPages.Razor.xml
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final6\final4\final4\BusTrackingSystem1\bin\Newtonsoft.Json.xml
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final6\final4\final4\BusTrackingSystem1\bin\Antlr3.Runtime.pdb
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final6\final4\final4\BusTrackingSystem1\bin\EntityFramework.xml
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final6\final4\final4\BusTrackingSystem1\bin\EntityFramework.SqlServer.xml
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final6\final4\final4\BusTrackingSystem1\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final6\final4\final4\BusTrackingSystem1\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final6\final4\final4\BusTrackingSystem1\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final6\final4\final4\BusTrackingSystem1\bin\Microsoft.Owin.xml
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final6\final4\final4\BusTrackingSystem1\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final6\final4\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.xml
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final6\final4\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final6\final4\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final6\final4\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final6\final4\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final6\final4\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final6\final4\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final6\final4\final4\BusTrackingSystem1\obj\Debug\BusTrackingSystem1.csprojResolveAssemblyReference.cache
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final6\final4\final4\BusTrackingSystem1\obj\Debug\BusTrackingSystem1.dll
+C:\Users\Gauri\Desktop\4thsem\0000001\trial\final6\final4\final4\BusTrackingSystem1\obj\Debug\BusTrackingSystem1.pdb
+C:\Users\home\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\BusTrackingSystem1.dll.config
+C:\Users\home\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\BusTrackingSystem1.dll
+C:\Users\home\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\BusTrackingSystem1.pdb
+C:\Users\home\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\Antlr3.Runtime.dll
+C:\Users\home\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\EntityFramework.dll
+C:\Users\home\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\EntityFramework.SqlServer.dll
+C:\Users\home\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\home\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\home\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\home\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\Microsoft.Owin.dll
+C:\Users\home\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\home\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\home\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.dll
+C:\Users\home\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\home\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\home\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\home\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\home\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\home\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\home\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\Newtonsoft.Json.dll
+C:\Users\home\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\Owin.dll
+C:\Users\home\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\System.Web.Helpers.dll
+C:\Users\home\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\System.Web.Mvc.dll
+C:\Users\home\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\System.Web.Optimization.dll
+C:\Users\home\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\System.Web.Razor.dll
+C:\Users\home\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\System.Web.WebPages.Deployment.dll
+C:\Users\home\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\System.Web.WebPages.dll
+C:\Users\home\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\System.Web.WebPages.Razor.dll
+C:\Users\home\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\WebGrease.dll
+C:\Users\home\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\System.Web.Helpers.xml
+C:\Users\home\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\System.Web.Mvc.xml
+C:\Users\home\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\System.Web.Optimization.xml
+C:\Users\home\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\System.Web.Razor.xml
+C:\Users\home\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\System.Web.WebPages.xml
+C:\Users\home\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\System.Web.WebPages.Deployment.xml
+C:\Users\home\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\System.Web.WebPages.Razor.xml
+C:\Users\home\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\Newtonsoft.Json.xml
+C:\Users\home\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\Antlr3.Runtime.pdb
+C:\Users\home\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\EntityFramework.xml
+C:\Users\home\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\EntityFramework.SqlServer.xml
+C:\Users\home\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\home\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\home\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\home\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\Microsoft.Owin.xml
+C:\Users\home\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\home\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.xml
+C:\Users\home\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\home\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\home\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\home\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\home\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\home\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\home\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\obj\Debug\BusTrackingSystem1.csprojResolveAssemblyReference.cache
+C:\Users\home\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\obj\Debug\BusTrackingSystem1.dll
+C:\Users\home\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\obj\Debug\BusTrackingSystem1.pdb
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\BusTrackingSystem1.dll.config
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\BusTrackingSystem1.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\BusTrackingSystem1.pdb
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\Antlr3.Runtime.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\EntityFramework.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\EntityFramework.SqlServer.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\Microsoft.Owin.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\Newtonsoft.Json.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\Owin.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\System.Web.Helpers.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\System.Web.Mvc.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\System.Web.Optimization.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\System.Web.Razor.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\System.Web.WebPages.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\System.Web.WebPages.Razor.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\WebGrease.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\System.Web.Helpers.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\System.Web.Mvc.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\System.Web.Optimization.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\System.Web.Razor.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\System.Web.WebPages.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\System.Web.WebPages.Razor.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\Newtonsoft.Json.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\Antlr3.Runtime.pdb
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\EntityFramework.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\EntityFramework.SqlServer.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\Microsoft.Owin.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\obj\Debug\BusTrackingSystem1.csprojResolveAssemblyReference.cache
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\obj\Debug\BusTrackingSystem1.dll
+C:\Users\Student\Documents\Visual Studio 2013\Projects\final4\BusTrackingSystem1\obj\Debug\BusTrackingSystem1.pdb

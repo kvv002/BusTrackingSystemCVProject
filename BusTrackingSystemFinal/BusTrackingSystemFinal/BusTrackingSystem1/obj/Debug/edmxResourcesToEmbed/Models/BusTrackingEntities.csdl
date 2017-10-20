@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BusTrackingModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="admin">
+    <Key>
+      <PropertyRef Name="admin_id" />
+    </Key>
+    <Property Name="admin_id" Type="Int32" Nullable="false" />
+    <Property Name="username" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="password" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="bus">
+    <Key>
+      <PropertyRef Name="bus_id" />
+      <PropertyRef Name="bus_type_id" />
+      <PropertyRef Name="company_id" />
+    </Key>
+    <Property Name="bus_id" Type="String" MaxLength="5" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="bus_type_id" Type="String" MaxLength="5" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="company_id" Type="String" MaxLength="5" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="bus_type" Relationship="Self.FK__bus__bus_type_id__5EBF139D" FromRole="bus" ToRole="bus_type" />
+    <NavigationProperty Name="company" Relationship="Self.FK__bus__company_id__5FB337D6" FromRole="bus" ToRole="company" />
+  </EntityType>
+  <EntityType Name="bus_type">
+    <Key>
+      <PropertyRef Name="bus_type_id" />
+    </Key>
+    <Property Name="bus_type_id" Type="String" MaxLength="5" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="bus_type1" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="buses" Relationship="Self.FK__bus__bus_type_id__5EBF139D" FromRole="bus_type" ToRole="bus" />
+  </EntityType>
+  <EntityType Name="company">
+    <Key>
+      <PropertyRef Name="company_id" />
+    </Key>
+    <Property Name="company_id" Type="String" MaxLength="5" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="company_name" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="company_address" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="company_phone_number" Type="String" MaxLength="12" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="buses" Relationship="Self.FK__bus__company_id__5FB337D6" FromRole="company" ToRole="bus" />
+  </EntityType>
+  <Association Name="FK__bus__bus_type_id__5EBF139D">
+    <End Role="bus_type" Type="Self.bus_type" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="bus" Type="Self.bus" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="bus_type">
+        <PropertyRef Name="bus_type_id" />
+      </Principal>
+      <Dependent Role="bus">
+        <PropertyRef Name="bus_type_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__bus__company_id__5FB337D6">
+    <End Role="company" Type="Self.company" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="bus" Type="Self.bus" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="company">
+        <PropertyRef Name="company_id" />
+      </Principal>
+      <Dependent Role="bus">
+        <PropertyRef Name="company_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="BusTrackingEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="admins" EntityType="Self.admin" />
+    <EntitySet Name="buses" EntityType="Self.bus" />
+    <EntitySet Name="bus_type" EntityType="Self.bus_type" />
+    <EntitySet Name="companies" EntityType="Self.company" />
+    <AssociationSet Name="FK__bus__bus_type_id__5EBF139D" Association="Self.FK__bus__bus_type_id__5EBF139D">
+      <End Role="bus_type" EntitySet="bus_type" />
+      <End Role="bus" EntitySet="buses" />
+    </AssociationSet>
+    <AssociationSet Name="FK__bus__company_id__5FB337D6" Association="Self.FK__bus__company_id__5FB337D6">
+      <End Role="company" EntitySet="companies" />
+      <End Role="bus" EntitySet="buses" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

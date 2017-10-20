@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="6aaf55919b294474aafa3faf38d9ea6f" Name="Diagram1">
+        <EntityTypeShape EntityType="BusTrackingModel.admin" Width="1.5" PointX="8.75" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="BusTrackingModel.bus" Width="1.5" PointX="3" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="BusTrackingModel.bus_trip" Width="1.5" PointX="5.25" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="BusTrackingModel.bus_type" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BusTrackingModel.company" Width="1.5" PointX="0.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="BusTrackingModel.complaint" Width="1.5" PointX="8.75" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="BusTrackingModel.driver" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BusTrackingModel.drive" Width="1.5" PointX="8.25" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="BusTrackingModel.location" Width="1.5" PointX="3.75" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="BusTrackingModel.passes_through" Width="1.5" PointX="6" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="BusTrackingModel.route" Width="1.5" PointX="0.75" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="BusTrackingModel.route_trip" Width="1.5" PointX="3" PointY="8" IsExpanded="true" />
+        <AssociationConnector Association="BusTrackingModel.FK__bus__bus_type_id__5BAD9CC8" ManuallyRouted="false" />
+        <AssociationConnector Association="BusTrackingModel.FK__bus__company_id__5CA1C101" ManuallyRouted="false" />
+        <AssociationConnector Association="BusTrackingModel.FK__bus_trip__bus_id__1C873BEC" ManuallyRouted="false" />
+        <AssociationConnector Association="BusTrackingModel.FK__drives__bus_id__0B5CAFEA" ManuallyRouted="false" />
+        <AssociationConnector Association="BusTrackingModel.FK__bus_trip__driver__1D7B6025" ManuallyRouted="false" />
+        <AssociationConnector Association="BusTrackingModel.FK__bus_trip__route___1B9317B3" ManuallyRouted="false" />
+        <AssociationConnector Association="BusTrackingModel.FK__drives__driver_i__0A688BB1" ManuallyRouted="false" />
+        <AssociationConnector Association="BusTrackingModel.FK__passes_th__locat__56E8E7AB" ManuallyRouted="false" />
+        <AssociationConnector Association="BusTrackingModel.FK__passes_th__route__55F4C372" ManuallyRouted="false" />
+        <AssociationConnector Association="BusTrackingModel.FK__route_tri__route__6AEFE058" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BusTrackingModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="admin">
+    <Key>
+      <PropertyRef Name="admin_id" />
+    </Key>
+    <Property Name="admin_id" Type="int" Nullable="false" />
+    <Property Name="username" Type="nvarchar" MaxLength="50" />
+    <Property Name="password" Type="nvarchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="bus">
+    <Key>
+      <PropertyRef Name="bus_id" />
+      <PropertyRef Name="bus_type_id" />
+      <PropertyRef Name="company_id" />
+    </Key>
+    <Property Name="bus_id" Type="nvarchar" MaxLength="5" Nullable="false" />
+    <Property Name="bus_type_id" Type="nvarchar" MaxLength="5" Nullable="false" />
+    <Property Name="company_id" Type="nvarchar" MaxLength="5" Nullable="false" />
+  </EntityType>
+  <EntityType Name="bus_type">
+    <Key>
+      <PropertyRef Name="bus_type_id" />
+    </Key>
+    <Property Name="bus_type_id" Type="nvarchar" MaxLength="5" Nullable="false" />
+    <Property Name="bus_type" Type="nvarchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="company">
+    <Key>
+      <PropertyRef Name="company_id" />
+    </Key>
+    <Property Name="company_id" Type="nvarchar" MaxLength="5" Nullable="false" />
+    <Property Name="company_name" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="company_address" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="company_phone_number" Type="nvarchar" MaxLength="12" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__bus__bus_type_id__5EBF139D">
+    <End Role="bus_type" Type="Self.bus_type" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="bus" Type="Self.bus" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="bus_type">
+        <PropertyRef Name="bus_type_id" />
+      </Principal>
+      <Dependent Role="bus">
+        <PropertyRef Name="bus_type_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__bus__company_id__5FB337D6">
+    <End Role="company" Type="Self.company" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="bus" Type="Self.bus" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="company">
+        <PropertyRef Name="company_id" />
+      </Principal>
+      <Dependent Role="bus">
+        <PropertyRef Name="company_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="BusTrackingModelStoreContainer">
+    <EntitySet Name="admin" EntityType="Self.admin" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="bus" EntityType="Self.bus" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="bus_type" EntityType="Self.bus_type" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="company" EntityType="Self.company" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__bus__bus_type_id__5EBF139D" Association="Self.FK__bus__bus_type_id__5EBF139D">
+      <End Role="bus_type" EntitySet="bus_type" />
+      <End Role="bus" EntitySet="bus" />
+    </AssociationSet>
+    <AssociationSet Name="FK__bus__company_id__5FB337D6" Association="Self.FK__bus__company_id__5FB337D6">
+      <End Role="company" EntitySet="company" />
+      <End Role="bus" EntitySet="bus" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

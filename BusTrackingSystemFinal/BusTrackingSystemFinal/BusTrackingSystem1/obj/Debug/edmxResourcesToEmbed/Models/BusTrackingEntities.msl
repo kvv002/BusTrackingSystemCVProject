@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BusTrackingModelStoreContainer" CdmEntityContainer="BusTrackingEntities">
+    <EntitySetMapping Name="admins">
+      <EntityTypeMapping TypeName="BusTrackingModel.admin">
+        <MappingFragment StoreEntitySet="admin">
+          <ScalarProperty Name="admin_id" ColumnName="admin_id" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="password" ColumnName="password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="buses">
+      <EntityTypeMapping TypeName="BusTrackingModel.bus">
+        <MappingFragment StoreEntitySet="bus">
+          <ScalarProperty Name="bus_id" ColumnName="bus_id" />
+          <ScalarProperty Name="bus_type_id" ColumnName="bus_type_id" />
+          <ScalarProperty Name="company_id" ColumnName="company_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="bus_type">
+      <EntityTypeMapping TypeName="BusTrackingModel.bus_type">
+        <MappingFragment StoreEntitySet="bus_type">
+          <ScalarProperty Name="bus_type_id" ColumnName="bus_type_id" />
+          <ScalarProperty Name="bus_type1" ColumnName="bus_type" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="companies">
+      <EntityTypeMapping TypeName="BusTrackingModel.company">
+        <MappingFragment StoreEntitySet="company">
+          <ScalarProperty Name="company_id" ColumnName="company_id" />
+          <ScalarProperty Name="company_name" ColumnName="company_name" />
+          <ScalarProperty Name="company_address" ColumnName="company_address" />
+          <ScalarProperty Name="company_phone_number" ColumnName="company_phone_number" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

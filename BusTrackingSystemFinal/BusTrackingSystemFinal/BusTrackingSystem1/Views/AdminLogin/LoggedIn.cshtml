@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewBag.Title = "LoggedIn";
+}
+@if (Session["adminId"] != null)
+{
+    <h2 style="color:#ebebeb">Welcome @Session["UserName"].ToString()</h2>
+    // @Html.ActionLink("Logout", "Login", "AdminLogin");
+
+   
+        <video width="1020" height="570" autoplay>
+            <source src="../../Content/video.mp4" type="video/mp4" />
+
+        </video>
+   
+}
+ 

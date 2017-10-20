@@ -1,0 +1,42 @@
+﻿@model BusTrackingSystem1.Models.company
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2 style="color: #2e5cb8">Details</h2>
+
+<div>
+   
+	<hr />
+    <dl class="dl-horizontal" style="color:white">
+        <dt>
+            @Html.DisplayNameFor(model => model.company_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.company_name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.company_address)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.company_address)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.company_phone_number)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.company_phone_number)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.company_id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,37 @@
+﻿@model IEnumerable<BusTrackingSystem1.Models.complaint>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+
+<h1 style="padding-top: 40px"></h1>
+
+<table class="table" style="color:white; padding-top:100px;">
+    <tr>
+        <th>
+            @Html.Label("Complaint")
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.route_id)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.complaint1)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.route_id)
+        </td>
+        <td>
+           
+            @Html.ActionLink("Details", "Details", new { id=item.complaint_id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.complaint_id })
+        </td>
+    </tr>
+}
+
+</table>

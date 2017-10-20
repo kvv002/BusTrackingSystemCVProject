@@ -1,0 +1,45 @@
+﻿@model IEnumerable<BusTrackingSystem1.Models.location>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+
+
+<p style="padding-top:50px; font-size:20px">
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table" style="color:white">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.location_name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.latitude)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.longitude)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.location_name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.latitude)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.longitude)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.location_id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.location_id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.location_id })
+        </td>
+    </tr>
+}
+
+</table>

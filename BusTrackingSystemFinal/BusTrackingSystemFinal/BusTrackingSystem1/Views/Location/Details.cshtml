@@ -1,0 +1,41 @@
+﻿@model BusTrackingSystem1.Models.location
+
+@{
+    ViewBag.Title = "Details";
+}
+<h2 style="color: #2e5cb8">Details</h2>
+
+<div>
+    <h4>location</h4>
+	<hr />
+    <dl class="dl-horizontal" style="color:white">
+        <dt>
+            @Html.DisplayNameFor(model => model.location_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.location_name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.latitude)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.latitude)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.longitude)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.longitude)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.location_id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

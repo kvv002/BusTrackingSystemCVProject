@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BusTrackingModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="admin">
+    <Key>
+      <PropertyRef Name="admin_id" />
+    </Key>
+    <Property Name="admin_id" Type="varchar" MaxLength="2" Nullable="false" />
+    <Property Name="admin_name" Type="varchar" MaxLength="20" />
+    <Property Name="admin_password" Type="varchar" MaxLength="15" />
+  </EntityType>
+  <EntityType Name="bus">
+    <Key>
+      <PropertyRef Name="bus_id" />
+    </Key>
+    <Property Name="bus_id" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="bus_type_id" Type="varchar" MaxLength="5" />
+    <Property Name="company_id" Type="varchar" MaxLength="5" />
+  </EntityType>
+  <EntityType Name="bus_trip">
+    <Key>
+      <PropertyRef Name="bus_trip_id" />
+    </Key>
+    <Property Name="bus_trip_id" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="date" Type="date" />
+    <Property Name="start_time" Type="time" Precision="7" />
+    <Property Name="end_time" Type="time" Precision="7" />
+    <Property Name="route_id" Type="varchar" MaxLength="5" />
+    <Property Name="bus_id" Type="varchar" MaxLength="5" />
+  </EntityType>
+  <EntityType Name="bus_type">
+    <Key>
+      <PropertyRef Name="bus_type_id" />
+    </Key>
+    <Property Name="bus_type_id" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="bus_type_name" Type="varchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="company">
+    <Key>
+      <PropertyRef Name="company_id" />
+    </Key>
+    <Property Name="company_id" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="company_name" Type="varchar" MaxLength="20" />
+    <Property Name="company_address" Type="varchar" MaxLength="50" />
+    <Property Name="company_phone_number" Type="varchar" MaxLength="12" />
+  </EntityType>
+  <EntityType Name="driver">
+    <Key>
+      <PropertyRef Name="driver_id" />
+    </Key>
+    <Property Name="driver_id" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="driver_name" Type="varchar" MaxLength="20" />
+    <Property Name="phone_number" Type="varchar" MaxLength="12" />
+    <Property Name="address" Type="varchar" MaxLength="50" />
+    <Property Name="gender" Type="varchar" MaxLength="6" />
+    <Property Name="date_of_birth" Type="date" />
+    <Property Name="bus_trip_id" Type="varchar" MaxLength="5" />
+  </EntityType>
+  <EntityType Name="drives">
+    <Key>
+      <PropertyRef Name="drives_id" />
+    </Key>
+    <Property Name="drives_id" Type="varchar" MaxLength="2" Nullable="false" />
+    <Property Name="driver_id" Type="varchar" MaxLength="5" />
+    <Property Name="bus_id" Type="varchar" MaxLength="5" />
+  </EntityType>
+  <EntityType Name="location">
+    <Key>
+      <PropertyRef Name="location_id" />
+    </Key>
+    <Property Name="location_id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="location_name" Type="varchar" MaxLength="20" />
+    <Property Name="latitude" Type="float" />
+    <Property Name="longitude" Type="float" />
+  </EntityType>
+  <EntityType Name="passes_through">
+    <Key>
+      <PropertyRef Name="passes_through_id" />
+    </Key>
+    <Property Name="passes_through_id" Type="varchar" MaxLength="2" Nullable="false" />
+    <Property Name="route_id" Type="varchar" MaxLength="5" />
+    <Property Name="location_id" Type="int" />
+    <Property Name="order_no" Type="smallint" />
+    <Property Name="time_to_reach" Type="time" Precision="7" />
+  </EntityType>
+  <EntityType Name="route">
+    <Key>
+      <PropertyRef Name="route_id" />
+    </Key>
+    <Property Name="route_id" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="source" Type="varchar" MaxLength="15" />
+    <Property Name="destination" Type="varchar" MaxLength="15" />
+  </EntityType>
+  <EntityType Name="route_trip">
+    <Key>
+      <PropertyRef Name="route_trip_id" />
+    </Key>
+    <Property Name="route_trip_id" Type="varchar" MaxLength="2" Nullable="false" />
+    <Property Name="route_id" Type="varchar" MaxLength="5" />
+    <Property Name="number_of_trips" Type="smallint" />
+    <Property Name="arrival_time" Type="time" Precision="7" />
+    <Property Name="departure_time" Type="time" Precision="7" />
+    <Property Name="bus_trip_id" Type="varchar" MaxLength="5" />
+  </EntityType>
+  <Association Name="FK__bus__bus_type_id__76969D2E">
+    <End Role="bus_type" Type="Self.bus_type" Multiplicity="0..1" />
+    <End Role="bus" Type="Self.bus" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="bus_type">
+        <PropertyRef Name="bus_type_id" />
+      </Principal>
+      <Dependent Role="bus">
+        <PropertyRef Name="bus_type_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__bus__company_id__778AC167">
+    <End Role="company" Type="Self.company" Multiplicity="0..1" />
+    <End Role="bus" Type="Self.bus" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="company">
+        <PropertyRef Name="company_id" />
+      </Principal>
+      <Dependent Role="bus">
+        <PropertyRef Name="company_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__bus_trip__bus_id__02FC7413">
+    <End Role="bus" Type="Self.bus" Multiplicity="0..1" />
+    <End Role="bus_trip" Type="Self.bus_trip" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="bus">
+        <PropertyRef Name="bus_id" />
+      </Principal>
+      <Dependent Role="bus_trip">
+        <PropertyRef Name="bus_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__bus_trip__route___02084FDA">
+    <End Role="route" Type="Self.route" Multiplicity="0..1" />
+    <End Role="bus_trip" Type="Self.bus_trip" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="route">
+        <PropertyRef Name="route_id" />
+      </Principal>
+      <Dependent Role="bus_trip">
+        <PropertyRef Name="route_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__driver__bus_trip__05D8E0BE">
+    <End Role="bus_trip" Type="Self.bus_trip" Multiplicity="0..1" />
+    <End Role="driver" Type="Self.driver" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="bus_trip">
+        <PropertyRef Name="bus_trip_id" />
+      </Principal>
+      <Dependent Role="driver">
+        <PropertyRef Name="bus_trip_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__drives__bus_id__0D7A0286">
+    <End Role="bus" Type="Self.bus" Multiplicity="0..1" />
+    <End Role="drives" Type="Self.drives" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="bus">
+        <PropertyRef Name="bus_id" />
+      </Principal>
+      <Dependent Role="drives">
+        <PropertyRef Name="bus_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__drives__driver_i__0C85DE4D">
+    <End Role="driver" Type="Self.driver" Multiplicity="0..1" />
+    <End Role="drives" Type="Self.drives" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="driver">
+        <PropertyRef Name="driver_id" />
+      </Principal>
+      <Dependent Role="drives">
+        <PropertyRef Name="driver_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__passes_th__locat__18EBB532">
+    <End Role="location" Type="Self.location" Multiplicity="0..1" />
+    <End Role="passes_through" Type="Self.passes_through" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="location">
+        <PropertyRef Name="location_id" />
+      </Principal>
+      <Dependent Role="passes_through">
+        <PropertyRef Name="location_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__passes_th__route__17F790F9">
+    <End Role="route" Type="Self.route" Multiplicity="0..1" />
+    <End Role="passes_through" Type="Self.passes_through" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="route">
+        <PropertyRef Name="route_id" />
+      </Principal>
+      <Dependent Role="passes_through">
+        <PropertyRef Name="route_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__route_tri__bus_t__09A971A2">
+    <End Role="bus_trip" Type="Self.bus_trip" Multiplicity="0..1" />
+    <End Role="route_trip" Type="Self.route_trip" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="bus_trip">
+        <PropertyRef Name="bus_trip_id" />
+      </Principal>
+      <Dependent Role="route_trip">
+        <PropertyRef Name="bus_trip_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__route_tri__route__08B54D69">
+    <End Role="route" Type="Self.route" Multiplicity="0..1" />
+    <End Role="route_trip" Type="Self.route_trip" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="route">
+        <PropertyRef Name="route_id" />
+      </Principal>
+      <Dependent Role="route_trip">
+        <PropertyRef Name="route_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="BusTrackingModelStoreContainer">
+    <EntitySet Name="admin" EntityType="Self.admin" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="bus" EntityType="Self.bus" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="bus_trip" EntityType="Self.bus_trip" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="bus_type" EntityType="Self.bus_type" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="company" EntityType="Self.company" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="driver" EntityType="Self.driver" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="drives" EntityType="Self.drives" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="location" EntityType="Self.location" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="passes_through" EntityType="Self.passes_through" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="route" EntityType="Self.route" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="route_trip" EntityType="Self.route_trip" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__bus__bus_type_id__76969D2E" Association="Self.FK__bus__bus_type_id__76969D2E">
+      <End Role="bus_type" EntitySet="bus_type" />
+      <End Role="bus" EntitySet="bus" />
+    </AssociationSet>
+    <AssociationSet Name="FK__bus__company_id__778AC167" Association="Self.FK__bus__company_id__778AC167">
+      <End Role="company" EntitySet="company" />
+      <End Role="bus" EntitySet="bus" />
+    </AssociationSet>
+    <AssociationSet Name="FK__bus_trip__bus_id__02FC7413" Association="Self.FK__bus_trip__bus_id__02FC7413">
+      <End Role="bus" EntitySet="bus" />
+      <End Role="bus_trip" EntitySet="bus_trip" />
+    </AssociationSet>
+    <AssociationSet Name="FK__bus_trip__route___02084FDA" Association="Self.FK__bus_trip__route___02084FDA">
+      <End Role="route" EntitySet="route" />
+      <End Role="bus_trip" EntitySet="bus_trip" />
+    </AssociationSet>
+    <AssociationSet Name="FK__driver__bus_trip__05D8E0BE" Association="Self.FK__driver__bus_trip__05D8E0BE">
+      <End Role="bus_trip" EntitySet="bus_trip" />
+      <End Role="driver" EntitySet="driver" />
+    </AssociationSet>
+    <AssociationSet Name="FK__drives__bus_id__0D7A0286" Association="Self.FK__drives__bus_id__0D7A0286">
+      <End Role="bus" EntitySet="bus" />
+      <End Role="drives" EntitySet="drives" />
+    </AssociationSet>
+    <AssociationSet Name="FK__drives__driver_i__0C85DE4D" Association="Self.FK__drives__driver_i__0C85DE4D">
+      <End Role="driver" EntitySet="driver" />
+      <End Role="drives" EntitySet="drives" />
+    </AssociationSet>
+    <AssociationSet Name="FK__passes_th__locat__18EBB532" Association="Self.FK__passes_th__locat__18EBB532">
+      <End Role="location" EntitySet="location" />
+      <End Role="passes_through" EntitySet="passes_through" />
+    </AssociationSet>
+    <AssociationSet Name="FK__passes_th__route__17F790F9" Association="Self.FK__passes_th__route__17F790F9">
+      <End Role="route" EntitySet="route" />
+      <End Role="passes_through" EntitySet="passes_through" />
+    </AssociationSet>
+    <AssociationSet Name="FK__route_tri__bus_t__09A971A2" Association="Self.FK__route_tri__bus_t__09A971A2">
+      <End Role="bus_trip" EntitySet="bus_trip" />
+      <End Role="route_trip" EntitySet="route_trip" />
+    </AssociationSet>
+    <AssociationSet Name="FK__route_tri__route__08B54D69" Association="Self.FK__route_tri__route__08B54D69">
+      <End Role="route" EntitySet="route" />
+      <End Role="route_trip" EntitySet="route_trip" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

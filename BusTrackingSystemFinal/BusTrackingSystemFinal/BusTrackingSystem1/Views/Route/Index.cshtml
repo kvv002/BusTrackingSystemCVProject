@@ -1,0 +1,49 @@
+﻿@model IEnumerable<BusTrackingSystem1.Models.route>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+
+
+<span class="navbar-brand" style="padding-top:35px">@Html.ActionLink("Create New", "Create", null, new { @style = "color:#2e5cb8" })</span>
+
+
+<span class="navbar-brand" style="padding-top:30px">
+    @Html.ActionLink("Passes Through", "Index", "PassesThrough", null, new { @class = "btn btn-success", @style = "color:white" })
+</span>
+<span class="navbar-brand" style="padding-top:30px">
+    @Html.ActionLink("Trip", "Index", "RouteTrip", null, new { @class = "btn btn-success", @style = "color:white" })
+</span>
+
+<span class="navbar-brand" style="padding-top:30px">
+    @Html.ActionLink("location", "Index", "Location", null, new { @class = "btn btn-success", @style = "color:white" })
+</span>
+<table class="table" style="color:white">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.source)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.destination)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.source)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.destination)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.route_id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.route_id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.route_id })
+        </td>
+    </tr>
+}
+
+</table>

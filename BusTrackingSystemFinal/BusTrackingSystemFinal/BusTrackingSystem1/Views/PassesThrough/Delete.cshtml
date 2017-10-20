@@ -1,0 +1,57 @@
+﻿@model BusTrackingSystem1.Models.passes_through
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2 style="color: #2e5cb8">Delete</h2>
+
+<h3 style="color:white">Are you sure you want to delete this?</h3>
+<div>
+  
+    <hr />
+    <dl class="dl-horizontal" style="color:white">
+        <dt>
+            @Html.DisplayNameFor(model => model.order_no)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.order_no)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.time_to_reach)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.time_to_reach)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.location.location_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.location.location_name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.route.source)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.route.source)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

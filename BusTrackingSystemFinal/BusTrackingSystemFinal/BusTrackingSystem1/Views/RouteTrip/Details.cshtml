@@ -1,0 +1,50 @@
+﻿@model BusTrackingSystem1.Models.route_trip
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2 style="color: #2e5cb8">Details</h2>
+
+<div>
+
+    <hr />
+    <dl class="dl-horizontal" style="color:white">
+        <dt>
+            @Html.DisplayNameFor(model => model.number_of_trips)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.number_of_trips)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.arrival_time)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.arrival_time)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.departure_time)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.departure_time)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.route.source)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.route.source)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.route_trip_id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

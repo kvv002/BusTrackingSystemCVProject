@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BusTrackingModelStoreContainer" CdmEntityContainer="BusTrackingEntities">
+    <EntitySetMapping Name="admins">
+      <EntityTypeMapping TypeName="BusTrackingModel.admin">
+        <MappingFragment StoreEntitySet="admin">
+          <ScalarProperty Name="admin_id" ColumnName="admin_id" />
+          <ScalarProperty Name="admin_name" ColumnName="admin_name" />
+          <ScalarProperty Name="admin_password" ColumnName="admin_password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="buses">
+      <EntityTypeMapping TypeName="BusTrackingModel.bus">
+        <MappingFragment StoreEntitySet="bus">
+          <ScalarProperty Name="bus_id" ColumnName="bus_id" />
+          <ScalarProperty Name="bus_type_id" ColumnName="bus_type_id" />
+          <ScalarProperty Name="company_id" ColumnName="company_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="bus_trip">
+      <EntityTypeMapping TypeName="BusTrackingModel.bus_trip">
+        <MappingFragment StoreEntitySet="bus_trip">
+          <ScalarProperty Name="bus_trip_id" ColumnName="bus_trip_id" />
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="start_time" ColumnName="start_time" />
+          <ScalarProperty Name="end_time" ColumnName="end_time" />
+          <ScalarProperty Name="route_id" ColumnName="route_id" />
+          <ScalarProperty Name="bus_id" ColumnName="bus_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="bus_type">
+      <EntityTypeMapping TypeName="BusTrackingModel.bus_type">
+        <MappingFragment StoreEntitySet="bus_type">
+          <ScalarProperty Name="bus_type_id" ColumnName="bus_type_id" />
+          <ScalarProperty Name="bus_type_name" ColumnName="bus_type_name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="companies">
+      <EntityTypeMapping TypeName="BusTrackingModel.company">
+        <MappingFragment StoreEntitySet="company">
+          <ScalarProperty Name="company_id" ColumnName="company_id" />
+          <ScalarProperty Name="company_name" ColumnName="company_name" />
+          <ScalarProperty Name="company_address" ColumnName="company_address" />
+          <ScalarProperty Name="company_phone_number" ColumnName="company_phone_number" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="drivers">
+      <EntityTypeMapping TypeName="BusTrackingModel.driver">
+        <MappingFragment StoreEntitySet="driver">
+          <ScalarProperty Name="driver_id" ColumnName="driver_id" />
+          <ScalarProperty Name="driver_name" ColumnName="driver_name" />
+          <ScalarProperty Name="phone_number" ColumnName="phone_number" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="gender" ColumnName="gender" />
+          <ScalarProperty Name="date_of_birth" ColumnName="date_of_birth" />
+          <ScalarProperty Name="bus_trip_id" ColumnName="bus_trip_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="drives">
+      <EntityTypeMapping TypeName="BusTrackingModel.drive">
+        <MappingFragment StoreEntitySet="drives">
+          <ScalarProperty Name="drives_id" ColumnName="drives_id" />
+          <ScalarProperty Name="driver_id" ColumnName="driver_id" />
+          <ScalarProperty Name="bus_id" ColumnName="bus_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="locations">
+      <EntityTypeMapping TypeName="BusTrackingModel.location">
+        <MappingFragment StoreEntitySet="location">
+          <ScalarProperty Name="location_id" ColumnName="location_id" />
+          <ScalarProperty Name="location_name" ColumnName="location_name" />
+          <ScalarProperty Name="latitude" ColumnName="latitude" />
+          <ScalarProperty Name="longitude" ColumnName="longitude" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="passes_through">
+      <EntityTypeMapping TypeName="BusTrackingModel.passes_through">
+        <MappingFragment StoreEntitySet="passes_through">
+          <ScalarProperty Name="passes_through_id" ColumnName="passes_through_id" />
+          <ScalarProperty Name="route_id" ColumnName="route_id" />
+          <ScalarProperty Name="location_id" ColumnName="location_id" />
+          <ScalarProperty Name="order_no" ColumnName="order_no" />
+          <ScalarProperty Name="time_to_reach" ColumnName="time_to_reach" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="routes">
+      <EntityTypeMapping TypeName="BusTrackingModel.route">
+        <MappingFragment StoreEntitySet="route">
+          <ScalarProperty Name="route_id" ColumnName="route_id" />
+          <ScalarProperty Name="source" ColumnName="source" />
+          <ScalarProperty Name="destination" ColumnName="destination" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="route_trip">
+      <EntityTypeMapping TypeName="BusTrackingModel.route_trip">
+        <MappingFragment StoreEntitySet="route_trip">
+          <ScalarProperty Name="route_trip_id" ColumnName="route_trip_id" />
+          <ScalarProperty Name="route_id" ColumnName="route_id" />
+          <ScalarProperty Name="number_of_trips" ColumnName="number_of_trips" />
+          <ScalarProperty Name="arrival_time" ColumnName="arrival_time" />
+          <ScalarProperty Name="departure_time" ColumnName="departure_time" />
+          <ScalarProperty Name="bus_trip_id" ColumnName="bus_trip_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

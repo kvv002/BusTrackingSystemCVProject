@@ -1,0 +1,45 @@
+﻿@model BusTrackingSystem1.Models.drive
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2 style="color: #2e5cb8">Edit</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal" style="color:white">
+        <h4>drive</h4>
+        <hr />
+        @Html.ValidationSummary(true)
+        @Html.HiddenFor(model => model.drives_id)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.driver_id, "driver_id", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("driver_id", String.Empty)
+                @Html.ValidationMessageFor(model => model.driver_id)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.bus_id, "bus_id", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("bus_id", String.Empty)
+                @Html.ValidationMessageFor(model => model.bus_id)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
